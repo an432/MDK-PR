@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Close",
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"Force": true,
+	"ActionResult": {
+		"_Name": "close"
+	},
+	"OnSuccess": "/trial_mdk_base/Actions/Service/CloseOfflineSuccessMessage.action",
+	"OnFailure": "/trial_mdk_base/Actions/Service/CloseOfflineFailureMessage.action"
+}

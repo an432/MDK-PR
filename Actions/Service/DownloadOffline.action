@@ -1,0 +1,15 @@
+{
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"DefiningRequests": [{
+		"Name": "A_PurchaseRequisitionItem",
+		"Query": "A_PurchaseRequisitionItem"
+	}, {
+		"Name": "A_PurchaseRequisitionHeader",
+		"Query": "A_PurchaseRequisitionHeader"
+	}],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/trial_mdk_base/Actions/Service/SyncFailureMessage.action"
+}

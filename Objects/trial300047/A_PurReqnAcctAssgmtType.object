@@ -1,0 +1,279 @@
+{
+	"Collection": [
+		"A_PurReqnAcctAssgmt"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisitionItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PurchaseReqnAcctAssgmtNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MasterFixedAsset",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProjectNetwork",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BaseUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Quantity",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "MultipleAcctAssgmtDistrPercent",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnItemCurrency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnNetAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "IsDeleted",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostElement",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GLAccount",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SDDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesDocumentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrderItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ScheduleLine",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrderScheduleLine",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FixedAsset",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProcessOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UnloadingPointName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostObject",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProfitabilitySegment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProfitCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProjectNetworkInternalID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CommitmentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FundsCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Fund",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FunctionalArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreationDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsRecipientName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RealEstateObject",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NetworkActivityInternalID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerAccountNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "JointVentureRecoveryCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SettlementReferenceDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderInternalID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderIntBillOfOperationsItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EarmarkedFundsDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCtrActivityType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessProcess",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GrantID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValidityDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "ChartOfAccounts",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WBSElement",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseRequisitionType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingGroup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"_Name": "A_PurReqnAcctAssgmtType"
+}

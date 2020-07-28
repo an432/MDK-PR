@@ -1,0 +1,7 @@
+{
+	"CancelPendingActions": false,
+	"DismissModal": "Action.Type.ClosePage.Completed",
+	"OnFailure": "/trial_mdk_base/Actions/CreatePRFalure.action",
+	"OnSuccess": "/trial_mdk_base/Actions/CloseModalPage_Complete.action",
+	"_Type": "Action.Type.ClosePage"
+}

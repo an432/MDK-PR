@@ -1,0 +1,11 @@
+{
+    "ServiceUrl": "/destinations/mobileservices_cf",
+    "AppId": "pr.trial.mdk",
+    "DestinationName": "pr.trial.mdk.300047",
+    "PathSuffix": "/API_PURCHASEREQ_PROCESS_SRV",
+    "OfflineOptions": {
+        "StoreParameters": {
+            "StoreName": "purrec"
+        }
+    }
+}

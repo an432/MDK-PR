@@ -1,0 +1,78 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/trial_mdk_base/Actions/CloseModalPage_Cancel.action",
+				"Position": "left",
+				"SystemItem": "Cancel",
+				"Text": "Item",
+				"Visible": true
+			},
+			{
+				"OnPress": "/trial_mdk_base/Actions/v0_PR_ODataCreateEntity.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Создать заявку",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Тип PR",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "NB",
+							"Target": "",
+							"Value": "NB",
+							"_Name": "PRType",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Описание",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Здесь введите текст",
+							"Target": "",
+							"Value": "111",
+							"_Name": "Descr",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Автопоиск",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Target": "",
+							"Value": false,
+							"_Name": "SourceDet",
+							"_Type": "Control.Type.FormCell.Switch"
+						},
+						{
+							"Caption": "Caption",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Target": "",
+							"Value": "1",
+							"_Name": "FormCellSimpleProperty0",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "CreatePR",
+	"_Type": "Page"
+}

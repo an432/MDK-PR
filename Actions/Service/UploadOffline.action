@@ -1,0 +1,9 @@
+{
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/trial_mdk_base/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/trial_mdk_base/Actions/Service/SyncFailureMessage.action"
+}

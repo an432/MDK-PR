@@ -1,0 +1,6 @@
+{
+	"Message": "Ошибка при создании PR + {Code}",
+	"OKCaption": "OK",
+	"Title": "{EventType}",
+	"_Type": "Action.Type.Message"
+}

@@ -1,0 +1,18 @@
+{
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"DefiningRequests": [{
+		"Name": "A_PurchaseRequisitionItem",
+		"Query": "A_PurchaseRequisitionItem"
+	}, {
+		"Name": "A_PurchaseRequisitionHeader",
+		"Query": "A_PurchaseRequisitionHeader"
+	}],
+	"_Type": "Action.Type.OfflineOData.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Downloading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/trial_mdk_base/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/trial_mdk_base/Actions/Service/InitializeOfflineFailureMessage.action"
+}

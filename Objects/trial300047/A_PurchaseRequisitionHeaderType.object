@@ -1,0 +1,41 @@
+{
+	"Collection": [
+		"A_PurchaseRequisitionHeader"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_PurchaseReqnItem",
+			"_Type": "Collection(A_PurchaseRequisitionItemType)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseRequisitionType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SourceDetermination",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnDoOnlyValidation",
+			"_Type": "Edm.Boolean"
+		}
+	],
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"_Name": "A_PurchaseRequisitionHeaderType"
+}

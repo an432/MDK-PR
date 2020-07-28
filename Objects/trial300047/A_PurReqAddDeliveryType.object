@@ -1,0 +1,279 @@
+{
+	"Collection": [
+		"A_PurReqAddDelivery"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisitionItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ManualDeliveryAddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ItemDeliveryAddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CareOfName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AdditionalStreetSuffixName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CorrespondenceLanguage",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PrfrdCommMediumType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "POBox",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "POBoxIsWithoutNumber",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "POBoxPostalCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "POBoxLobbyName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "POBoxDeviatingCityName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "POBoxDeviatingRegion",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "POBoxDeviatingCountry",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryServiceTypeCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryServiceNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressTimeZone",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FullName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CityName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "District",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CityCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HomeCityName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyPostalCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StreetName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StreetPrefixName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AdditionalStreetPrefixName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StreetSuffixName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HouseNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HouseNumberSupplementText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Building",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Floor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RoomNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Region",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "County",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FormOfAddress",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerName1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerName2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Nation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PhoneNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FaxNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SearchTerm1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StreetSearch",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CitySearch",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerName3",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessPartnerName4",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxJurisdiction",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TransportZone",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Person",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"_Name": "A_PurReqAddDeliveryType"
+}

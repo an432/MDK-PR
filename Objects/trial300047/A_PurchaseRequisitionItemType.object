@@ -1,0 +1,481 @@
+{
+	"Collection": [
+		"A_PurchaseRequisitionItem"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_PurchaseReqn",
+			"_Type": "A_PurchaseRequisitionHeaderType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_PurchaseReqnAcctAssgmt",
+			"_Type": "Collection(A_PurReqnAcctAssgmtType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_PurchaseReqnDeliveryAddress",
+			"_Type": "A_PurReqAddDeliveryType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_PurchaseReqnItemText",
+			"_Type": "Collection(A_PurchaseReqnItemTextType)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisitionItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingDocumentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnReleaseStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseRequisitionType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingDocumentSubtype",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingDocumentItemCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseRequisitionItemText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AccountAssignmentCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingDocumentCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RequestedQuantity",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "BaseUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseRequisitionPrice",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnPriceQuantity",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialGoodsReceiptDuration",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "ReleaseCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseRequisitionReleaseDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SourceOfSupplyIsAssigned",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplyingPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderedQuantity",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CreationDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "ProcessingStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ExternalApprovalStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingInfoRecord",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Supplier",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsDeleted",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FixedSupplier",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RequisitionerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedByUser",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqCreationDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryAddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ManualDeliveryAddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnItemCurrency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialPlannedDeliveryDurn",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "DelivDateCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MultipleAcctAssgmtDistribution",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StorageLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnSSPRequestor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnSSPAuthor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseContract",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnSourceOfSupplyType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseContractItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ConsumptionPosting",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnOrigin",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnSSPCatalog",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnSSPCatalogItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnSSPCrossCatalogItem",
+			"_Type": "Edm.Int32"
+		},
+		{
+			"Key": false,
+			"_Name": "IsPurReqnBlocked",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ItemDeliveryAddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsClosed",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "ReleaseIsNotCompleted",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "ServicePerformer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseRequisitionStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReleaseStrategy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PerformancePeriodStartDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "PerformancePeriodEndDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseOrderPriceType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplierMaterialNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Batch",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialRevisionLevel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MinRemainingShelfLife",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "ItemNetAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsReceiptIsExpected",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "InvoiceIsExpected",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsReceiptIsNonValuated",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "RequirementTracking",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MRPController",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseRequisitionIsFixed",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LastChangeDateTime",
+			"_Type": "Edm.DateTimeOffset"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnExternalReference",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnItemExternalReference",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnExternalSystemId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnExternalSystemType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnTypeExternalReference",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnProcessingType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurReqnProcessingDateTime",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProcmtHubBackendBusSyst",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SSPAuthorExternalBPIdnNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SSPReqrUserId",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"_Name": "A_PurchaseRequisitionItemType"
+}

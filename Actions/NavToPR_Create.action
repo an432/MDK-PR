@@ -1,0 +1,5 @@
+{
+	"ModalPage": true,
+	"PageToOpen": "/trial_mdk_base/Pages/CreatePR.page",
+	"_Type": "Action.Type.Navigation"
+}

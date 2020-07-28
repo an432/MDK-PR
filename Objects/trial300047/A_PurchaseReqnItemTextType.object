@@ -1,0 +1,49 @@
+{
+	"Collection": [
+		"A_PurchaseReqnItemText"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PurchaseRequisitionItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "DocumentText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "TechnicalObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ArchObjectNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NoteDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FixedIndicator",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/trial_mdk_base/Services/trial300047.service",
+	"_Name": "A_PurchaseReqnItemTextType"
+}

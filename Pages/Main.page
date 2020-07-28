@@ -1,0 +1,73 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/trial_mdk_base/Actions/NavToPR_Create.action",
+				"Position": "right",
+				"SystemItem": "Add",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Main",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"Description": "{PurReqnDescription}",
+						"DetailImage": "/trial_mdk_base/Images/basket.png",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": false,
+						"ProgressIndicator": "open",
+						"StatusText": "{to_PurchaseReqnItem/Material}",
+						"Title": "{PurchaseRequisition}"
+					},
+					"Target": {
+						"EntitySet": "A_PurchaseRequisitionHeader",
+						"QueryOptions": "$top=15&$expand=to_PurchaseReqnItem",
+						"Service": "/trial_mdk_base/Services/trial300047.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"Target": "",
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Target": "",
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Logout",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/trial_mdk_base/Actions/Logout.action",
+				"Target": "",
+				"Visible": true,
+				"_Name": "LogoutToolbarItem",
+				"_Type": "Control.Type.ToolbarItem"
+			},
+			{
+				"Caption": "Sync",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/trial_mdk_base/Actions/Service/SyncStartedMessage.action",
+				"Target": "",
+				"Visible": true,
+				"_Name": "UploadToolbarItem",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Main",
+	"_Type": "Page"
+}
