@@ -25,11 +25,10 @@
 					"Controls": [
 						{
 							"Caption": "Тип PR",
-							"IsEditable": false,
+							"IsEditable": true,
 							"IsVisible": true,
 							"PlaceHolder": "NB",
 							"Target": "",
-							"Value": "NB",
 							"_Name": "PRType",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						},
@@ -39,27 +38,25 @@
 							"IsVisible": true,
 							"PlaceHolder": "Здесь введите текст",
 							"Target": "",
-							"Value": "111",
 							"_Name": "Descr",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						},
 						{
-							"Caption": "Автопоиск",
+							"Caption": "Автопоставщик",
 							"IsEditable": true,
 							"IsVisible": true,
+							"PlaceHolder": "false",
 							"Target": "",
-							"Value": false,
-							"_Name": "SourceDet",
-							"_Type": "Control.Type.FormCell.Switch"
+							"_Name": "AutoS",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
 						},
 						{
-							"Caption": "Caption",
-							"IsEditable": false,
+							"Caption": "PRID",
+							"IsEditable": true,
 							"IsVisible": true,
-							"PlaceHolder": "PlaceHolder",
+							"PlaceHolder": "1",
 							"Target": "",
-							"Value": "1",
-							"_Name": "FormCellSimpleProperty0",
+							"_Name": "PRID",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						}
 					],
